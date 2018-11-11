@@ -1,0 +1,142 @@
+body {
+    background-color:ffffd2;
+    font-family: FreeMono, monospace;
+    font-size: 17px;
+}
+h1 {
+    color:#62929A;
+font-family: 'Fjalla One', sans-serif;
+    text-decoration: underline;
+}
+h3 {
+    color:#0D627A;
+    font-style: underline;
+    font-size: 25px;
+    text-align: center;
+}
+a {
+    color: rgba(8, 8, 138, 0.25);
+    font-size: 40px;
+    font-family: impact;
+}
+a:hover {
+    color: #B73535;
+    font-weight: bolder;
+    background: black;
+}
+p {
+    font-style: italic;
+    color: rgb(150, 150, 150);
+    text-align: center;
+}
+ 
+@media (max-width: 1300px) {
+    .mon-image {
+        width: 900px;
+    }
+}
+ 
+@media (max-width: 1100px) {
+    .mon-image {
+        width: 800px;
+    }
+}
+ 
+@media (max-width: 1000px) {
+    .mon-image {
+        width: 700px;
+    }
+}
+ 
+@media (max-width: 900px) {
+    .tout {
+        width: 650px;
+    }
+    .mon-image {
+        width: 500px;
+    }
+}
+ 
+@media (max-width: 750px) {
+    .tout {
+        width: 550px;
+    }
+    .mon-image {
+        width: 400px;
+    }
+}
+ 
+@media (max-width: 600px) {
+    .tout {
+        width: 4750px;
+    }
+    .mon-image {
+        width: 300px;
+    }
+}
+ 
+@media (max-width: 500px) {
+    .tout {
+        width: 400px;
+    }
+    .mon-image {
+        width: 250px;
+    }
+}
+ 
+#photo {
+    border-radius: 200px;
+}
+ 
+#tout {
+    width: 1250px;
+    margin: 10px auto;
+}
+ 
+#couverture {
+    background: rgba(1, 169, 219, 0.05);
+    padding: 60px;
+    margin: 40px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+}
+ 
+#intro {
+    background: rgba(1, 169, 219, 0.12);
+    padding:60px;
+    margin:20px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    }
+ 
+#perso {
+    background: rgba(1, 169, 219, 0.19);
+    padding:60px;
+    margin:50px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+ 
+#loisirs {
+    background: rgba(1, 169, 219, 0.26);
+    padding:60px;
+    margin:50px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    }
+ 
+#artistes {
+    background: rgba(1, 169, 219, 0.33);
+    padding:60px;
+    margin:50px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+ 
+.btn-blue {
+    background: rgba(8, 8, 138, 0.65);
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
